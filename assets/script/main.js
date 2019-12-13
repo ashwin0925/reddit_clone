@@ -20,9 +20,9 @@ var display = (list) => {
            `<div class="wrapper">
             <div class="card">
                 <div class = card_sub1>
-                    <img class = 'arrow' src = 'arrow_up.png'>
+                    <img class = 'arrow' src = './assets/media/arrow_up.png'>
                     <p class = 'innerText_arrow' >${item.data.score}</p>
-                    <img class = 'arrow' src = 'arrow_down.png'>
+                    <img class = 'arrow' src = './assets/media/arrow_down.png'>
                 </div>
               <div class = card_sub2>
                 <h5 class = 'author'>Posted by u/${item.data.author}</h5>
@@ -30,7 +30,7 @@ var display = (list) => {
                 <span class = 'link_flair_text'>${item.data.link_flair_text}</span>
                 <p class = 'self_text'>${item.data.selftext}</p>
                 <a href = ${item.data.url}>
-                    <img class = 'comments' src="comments.jpg">
+                    <img class = 'comments' src="./assets/media/comments.jpg">
                 </a>   
                 <p class = 'comments_text'>${item.data.num_comments} Comments</p>
               </div>
@@ -63,7 +63,7 @@ myFetch(url)
     
     display(res.data.children); 
     card2.classList.remove('card2_container_display');
-    js_logo.src = 'js.png';
+    js_logo.src = './assets/media/js.png';
     section1.style.opacity = '1';
 
 })
