@@ -201,9 +201,9 @@
     }
     .posts {
         height:2.4rem;
-        background-color: #FEF4DB;
+        background-color: #DBF0FF;
         padding:0 7rem;
-        margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
     }
     .postsText {
         font-size:0.9rem;
@@ -223,6 +223,8 @@
         display: grid;
         grid-column-gap: 1.5rem;
         grid-template-columns: 2fr 1fr;
+        margin-bottom: 0.7rem;
+        box-sizing: border-box;
     }
 
     .card {
@@ -420,9 +422,6 @@
             font-weight: 700;
         }
         /* card2_3 */
-        .card2_3 {
-        
-        }
         .card2_3_main {
             padding:1rem;
             border-bottom-right-radius: 0.3rem;
@@ -563,4 +562,32 @@
         background-color: #0079D3;
         text-decoration: none;
         border:none;
+    }
+
+    /* View */
+    .head_3 {
+        background-color: white;
+        height: 2.5rem;
+        padding-left: 12.5rem;
+        padding-top: .4rem;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .head_3_1 {
+        color: grey;
+        font-size: .7rem;
+        font-weight: bold;
+        height: 1rem;
+        padding: 0rem .2rem 0rem 0.4rem;
+    }
+    
+    .head_3_2 {
+        fill: #2B7AD3;
+        height: 1.2rem;
+        font-weight: bold;
+        padding: 0rem .2rem 0rem 0rem;
+        bottom: -18%;
+        position: relative;
+        opacity: .2;
     }
